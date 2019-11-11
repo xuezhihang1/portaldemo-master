@@ -1,0 +1,122 @@
+body {
+    background-color:#F6F6F6;  /*调整背景颜色*/
+    margin:0;     /*取消外边距*/
+}
+div {
+    /*border:1px red solid;*/
+    /*font-size:36px;*/
+}
+a {
+    text-decoration: none     /*消除a标签下划线*/
+}
+#logo,#a2,#ss{
+    float:left;    /*左侧浮动*/
+}
+#dd{
+    float:right;   /*右侧浮动*/
+}
+#zh2{
+    background-color:white;    /*调整背景颜色*/
+    height:60px;     /*调整高度*/
+}
+/*logo*/
+#logo img{
+    margin-left:200px;    /*调整左侧外边距*/
+}
+/*第二部分*/
+#a2{
+    margin-left:30px;     /*调整左侧外边距*/
+}
+#aa {
+    color: black;       /*改变字体颜色*/
+    border-bottom:2px solid #007BEE;     /*增加下划线 实线 颜色*/
+    height: 60px;       /*调整高度*/
+    width: 35px;        /*调整宽度*/
+}
+.a3{
+    color:#8590B6;       /*改变字体颜色*/
+    height:60px;         /*调整高度*/
+    width:70px;          /*调整宽度*/
+    margin-right:10px;    /*调整右侧外边距*/
+}
+#a2 a{
+    display:flex;         /*改变为弹性布局的块级元素*/
+    justify-content:center;   /*水平居中*/
+    align-items:center;       /*垂直居中*/
+    float:left;               /*左侧浮动*/
+}
+
+/*第三部分-搜索框*/
+#ss{
+    margin-left:30px;     /*调整左侧外边距*/
+    display:flex;         /*改变为弹性布局的块级元素*/
+    justify-content:center;     /*水平居中*/
+    align-items:center;         /*垂直居中*/
+    height:60px;         /*高度调整*/
+}
+#ss input{
+    width:290px;       /*宽度调整*/
+    height:35px;       /*高度调整*/
+    border:1px #EBEBEB solid;     /*边框属性调整：像素 颜色 实线*/
+    border-radius:5px;     /*调整边框边角为圆角*/
+    padding-left:10px;     /*调整左侧内边距*/
+    outline:none;          /*改变轮廓属性：取消轮廓边线*/
+    float:left;            /*左侧浮动*/
+    margin-right:30px;     /*调整右侧外边距*/
+}
+#ss a{
+    background-color:#0084FF;      /*调整背景颜色*/
+    display:flex;                  /*改变为弹性布局的块级元素*/
+    justify-content:center;        /*水平居中*/
+    align-items:center;            /*垂直居中*/
+    height:35px;                   /*调整高度*/
+    width:55px;                    /*调整宽度*/
+    border-radius:5px;             /*调整边框边角为圆角*/
+    color:white;                   /*字体颜色*/
+    float:left;                    /*左侧浮动*/
+}
+/*第四部分*/
+#dd {
+    margin-right:200px;             /*调整右侧外边距*/
+    height:60px;                    /*调整高度*/
+    display:flex;                   /*改变为弹性布局的块级元素*/
+    justify-content:center;         /*水平居中*/
+    align-items:center;             /*垂直居中*/
+}
+#dd div {
+    height: 25px;                   /*调整高度*/
+    width: 25px;                    /*调整宽度*/
+    float: left;                    /*左侧浮动*/
+    margin-right: 30px;             /*调整右侧外边距*/
+}
+#dd img{
+    height:100%;                   /*自适应高度*/
+    width:100%;                    /*自适应宽度*/
+}
+#dd{
+    position: relative;            /*相对定位*/
+}
+#dd-b{
+    background-color:red;          /*调整背景颜色*/
+    display:flex;                  /*改变为弹性布局的块级元素*/
+    justify-content:center;        /*水平居中*/
+    align-items:center;            /*垂直居中*/
+    border-radius:8px;             /*调整边框边角为圆角*/
+    height:16px !important;      /*调整高度 指定样式优先级*/
+    width:16px !important;       /*调整宽度 指定样式优先级*/
+    font-size:12px;                /*调整字体大小*/
+    color:white;                   /*调整字体颜色*/
+    position: absolute;            /*绝对定位*/
+    top:13px;                      /*距离顶部距离*/
+    right:108px;                   /*距离右侧距离*/
+}
+/*外包圆*/
+#dd-c{
+    background-color:white;        /*调整背景颜色*/
+    height:22px !important;      /*调整高度 指定样式优先级*/
+    width:22px !important;       /*调整宽度 指定样式优先级*/
+    border-radius:11px;            /*调整边框边角为圆角*/
+    top:11px;                      /*距离顶部距离*/
+    right:106px;                   /*距离右侧距离*/
+    position: absolute;            /*绝对定位*/
+}

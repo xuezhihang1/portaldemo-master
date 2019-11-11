@@ -1,0 +1,104 @@
+body{
+    margin:0;       /*消除外边距*/
+}
+a{
+    text-decoration:none;   /*消除a标签下划线*/
+}
+#ssk{
+    height:200px;         /*高度调整*/
+    width:800px;          /*宽度调整*/
+    margin:auto;          /*自适应外边距*/
+    margin-top:60px;      /*调整上外边距*/
+}
+/*第一部分*/
+#ba{
+    display:flex;         /*改变为弹性布局的块级元素*/
+}
+/*搜索框*/
+#ba input{
+    border:2px #E2231A solid;    /*设置边框 颜色 实线*/
+    outline:none;                /*改变轮廓属性：消除轮廓边线*/
+    height:30px;                 /*高度调整*/
+    width:450px;                 /*宽度调整*/
+    padding-left:15px;           /*调整做内边距*/
+    float:left;                  /*左侧浮动*/
+}
+#bb{
+    height:35px;                 /*高度调整*/
+    width:600px;                 /*宽度调整*/
+    position:relative;           /*相对定位*/
+}
+#bb a{
+    display:flex;                /*改变为弹性布局的块级元素*/
+    justify-content: center;     /*水平居中*/
+    align-items: center;         /*垂直居中*/
+    height:36px;                 /*高度调整*/
+    width:50px;                  /*宽度调整*/
+    background-color: #E2231A;   /*设置背景颜色*/
+    float:left;                  /*左侧浮动*/
+}
+/*照相机*/
+#bb a img{
+    height:25px;                 /*高度调整*/
+    width:25px;                  /*宽度调整*/
+}
+#bb-a {
+    height:20px;                 /*高度调整*/
+    width:20px;                  /*宽度调整*/
+    position:absolute;           /*绝对定位*/
+    top:7px;                     /*顶部距离*/
+    right:150px;                 /*右侧距离*/
+}
+/*图片自适应*/
+#bb-a img{
+    height:100%;
+    width:100%;
+}
+#bb-b{
+        border:1px #EEEEEE solid;      /*设置边框 颜色 实线*/
+    height:36px;                   /*高度调整*/
+    width:130px;                   /*宽度调整*/
+    font-size:12px;                /*字体尺寸*/
+    display:flex;                  /*改变为弹性布局的块级元素*/
+    justify-content: space-around;  /*各行之间留有空白*/
+    align-items: center;           /*垂直居中*/
+}
+#bb-b div{
+    height:18px;                    /*高度调整*/
+    width:15px;                     /*宽度调整*/
+    position: relative;             /*相对定位*/
+}
+/*图片自适应*/
+#bb-b img{
+    height: 100%;
+    width:100%;
+
+}
+#bb-b a{
+    color:#E2231A;                  /*字体颜色*/
+}
+#bb-b div div{
+    height: 13px;                   /*高度调整*/
+    width: 18px;                    /*宽度调整*/
+    border-radius: 10px;            /*边框边角变为圆角*/
+    background-color: #E2231A;      /*设置背景颜色*/
+    color: white;                   /*设置字体颜色*/
+    font-size: 10px;                /*设置字体尺寸*/
+    position: absolute;             /*绝对定位*/
+    top: -6px;                      /*顶部距离*/
+    right: -10px;                   /*右侧距离*/
+    display: flex;                  /*改变为弹性布局的块级元素*/
+    justify-content: center;        /*水平居中*/
+    align-items: center;            /*垂直居中*/
+}
+/*第二部分*/
+#bc{
+    width:460px;                    /*宽度调整*/
+    font-size:12px;                 /*设置字体尺寸*/
+    display: flex;                  /*改变为弹性布局的块级元素*/
+    justify-content: space-between;  /*元素紧贴左右两边边框，中间隔开*/
+}
+#bc a{
+    color:#999999;                   /*设置字体颜色*/
+}
+

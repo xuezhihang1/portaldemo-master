@@ -1,0 +1,242 @@
+#wk{
+    display: flex;
+    position: relative;
+}
+/*标头*/
+#btl{
+    width: 100%;
+    height:25px;
+    background-color: #FF852A;
+    padding: 6px 9px 6px 42px;
+    display: flex;
+    position: absolute;
+}
+#btl-1{
+    width:35px;
+    height:35px;
+    display:flex;
+    position: absolute;
+    left:5px;
+    top:1px;
+}
+#btl-1 img{
+    width:100%;
+    height:100%;
+}
+#btl-2{
+    display:flex;
+    background-color: #FF4E22;
+    height:25px;
+    width:86%;
+    border-radius: 4px;
+    position: fixed;
+}
+#btl-3{
+    display: flex;
+    height:20px;
+    width:20px;
+    position: absolute;
+    left:100px;
+    top:2px;
+}
+#btl-3 img{
+    height:100%;
+    width:100%;
+}
+#btl-4{
+    display:flex;
+    font-size: 13px;
+    color:#F0E0DC;
+    position: absolute;
+    left:123px;
+    top:3px;
+}
+/*轮播图*/
+#lbt{
+    display: flex;
+    position: absolute;
+    top:36px;
+}
+#lbt a img{
+    width:100%;
+}
+#yuan{
+    height:30px;
+    width:120px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:absolute;
+    left:130px;
+    bottom:-3px;
+}
+.yd{
+    height: 8px;
+    width: 8px;
+    background: white;
+    border-radius: 4px;
+    opacity: 0.2;
+}
+#ys{
+    height: 8px;
+    width: 8px;
+    background-color: #FF5000;
+    border-radius: 4px;
+    position: absolute;
+}
+/*中部导航链接*/
+#zb{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+#zb-1{
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    top:160px;
+}
+.zb1{
+    height:45px;
+    width:55px;
+}
+#zb-1 div img{
+    height:100%;
+    width:100%;
+}
+#zb-1 div div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top:50px;
+    color: #B0B0B0;
+    font-size: 10px;
+}
+#zb-2{
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    top:223px;
+}
+.zb2{
+    height:45px;
+    width:55px;
+}
+#zb-2 div img{
+    height:100%;
+    width:100%;
+}
+#wz-2{
+    width:100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top:270px;
+    color: #B0B0B0;
+    font-size: 10px;
+    right:5px;
+}
+#zb-2 div div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top:150px;
+    color: #B0B0B0;
+    font-size: 10px;
+}
+/*中部广告*/
+#gg{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    top:290px;
+}
+#gg img{
+    width: 100%;
+}
+/*下部图片*/
+#ggl{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    top:355px;
+}
+#ggl img{
+    width: 100%;
+}
+/*右侧链接*/
+#lz1{
+    height:45px;
+    width:45px;
+    display: flex;
+    position:fixed;
+    right:10px;
+    top:420px;
+}
+#lz1 a img{
+    height:100%;
+    width:100%;
+}
+#lz2{
+    height:15px;
+    width:52px;
+    display:flex;
+    position:fixed;
+    right:8px;
+    top:470px;
+    background-color: #FF5B00;
+    border-radius: 7px;
+    font-size: 8px;
+}
+#lz2 a{
+    color:white;
+}
+/*底部功能栏*/
+#dbl{
+    width:100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    bottom:25px;
+}
+.dbl-1{
+    width:20px;
+    height:20px;
+}
+.dbl-1 img{
+    height:100%;
+    width:100%;
+}
+#dbl div div{
+    width:50px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    color: #B0B0B0;
+    font-size: 8px;
+}
+.dbl-2 div{
+    position: absolute;
+    left:106px;
+}
+.dbl-3 div{
+    position: absolute;
+    left:180px;
+}
+.dbl-4 div{
+    position: absolute;
+    left:260px;
+}

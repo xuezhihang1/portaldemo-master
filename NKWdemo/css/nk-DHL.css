@@ -1,0 +1,40 @@
+body{
+    background-color:white;
+    margin:0;
+}
+#ae{
+    background-color:#3D444C;
+    height:60px;
+}
+a{
+    text-decoration:none;
+}
+#ab{
+    background-color:#3D444C;
+}
+#ab-a{
+    background-color:#31363D;
+    color:white;
+    height:60px;
+    width:20px;
+}
+.ab-b{
+    color:#CCCCCC;
+}
+#ac input{
+    background-color:#31363E;
+    color:#757575;
+    width:300px;
+    height:30px;
+    border:1px #31363E solid;
+    outline:none;
+    border-radius:5px;
+}
+#ad {
+    height:30px;
+    width:30px;
+}
+#ad img{
+    height:100%;
+    width:100%;
+}

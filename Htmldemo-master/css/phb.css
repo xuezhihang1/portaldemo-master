@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/*排行榜标题*/
+#phb-a{
+    margin: auto;
+    height:200px;
+    width:800px;
+}
+#phb-b{
+    margin:20px;
+    height:50px;
+}
+#phb-c{
+    float:left;
+    margin-right:20px;
+    margin-bottom: 33px;
+    font-size:24px;
+}
+#phb-d{
+    color:#999;
+    font-size:14px;
+    float:left;
+    margin-top: 10px;
+}
+#phb-f{
+    float:right;
+    background-color: #169af3;
+    color:white;
+    height:20px;
+    width:80px;
+    border:1px #169af3 solid;
+    border-radius:1px;
+    font-size:14px;
+    padding: 4px 10px 4px 11px;
+    margin-top:5px;
+}
+#phb-f img{
+    height:12px;
+    width:12px;
+    padding-left:3px;
+}
+#xx{
+    border:1px red solid;
+    width:760px;
+    margin:auto;
+    margin-top:-10px;
+    display: flex;
+}
+/*内部内容*/
+#tb{
+    margin:auto;
+    width:760px;
+    border:1px #CCCCCC solid;
+}
+#tr-2 {
+    background-color: #F6F6F6;
+}
+#tr-2 th{
+    border:1px #CCCCCC solid;
+    color:#666666;
+    font-size:12px;
+    text-align: left;
+    padding:8px 10px 8px 10px;
+}
+#th1{
+    width:10%;
+}
+#th2{
+    width:30%;
+}
+#th3{
+    width:10%;
+}
+#th4{
+    width:20%;
+}

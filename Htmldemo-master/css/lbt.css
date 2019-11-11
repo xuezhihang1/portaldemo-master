@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    /*background-color:gainsboro;*/
+}
+a{
+    text-decoration:none;
+}
+/**/
+#car {
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    position:relative;
+}
+#car img{
+    height:100%;
+    width:100%;
+}
+#yuan{
+    height:30px;
+    width:170px;
+    /*border:2px black solid;*/
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.yd{
+    height:18px;
+    width:18px;
+    background:dimgrey;
+    border-radius:9px;
+    opacity:0.5;
+}
+#ys{
+    height:14px;
+    width:14px;
+    background-color:white;
+    border-radius:7px;
+    position:absolute;
+    /*right:35px;*/
+}
+/**/
+#er{
+    width:100%;
+    /*border:1px black solid;*/
+    position:absolute;
+    top:50%;
+}
+#er-l{
+    width:100px;
+    /*border:1px red solid;*/
+    position:absolute;
+    left:-25px;
+}
+#erl-2{
+    height:30px;
+    width:25px;
+    background-color:white;
+    float:left;
+}
+#erl-3{
+    height:30px;
+    width:50px;
+    background-color:white;
+    border-radius:20px;
+    opacity:0.4;
+}
+/**/
+#ep{
+    width:100%;
+    position:absolute;
+    top:50%;
+}
+#ep-r{
+    width:100px;
+    position:absolute;
+    right:-75px;
+}
+#epr-2{
+    height:30px;
+    width:25px;
+    background-color:white;
+    float:right;
+}
+#epr-3{
+    height:30px;
+    width:50px;
+    background-color:white;
+    border-radius:20px;
+    opacity:0.4;
+}
+#xyh img{
+    height:25px;
+    width:20px;
+    position:absolute;
+    left:0;
+    bottom:-27px;
+}
+#dyh img{
+    height:25px;
+    width:20px;
+    position:absolute;
+    right:0;
+    bottom:-27px;
+}

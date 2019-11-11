@@ -1,0 +1,96 @@
+#div1{
+    position: relative;
+}
+#div2{
+    width:0;
+    height:0;
+    border-top: 200px solid red;
+    border-right:200px solid transparent;
+    border-bottom:200px solid transparent;
+    border-left:200px solid transparent;
+    position: absolute;
+}
+#div3{
+    width:0;
+    height:0;
+    border-top: 200px solid transparent;
+    border-right:200px solid transparent;
+    border-bottom:200px solid transparent;
+    border-left:200px solid yellow;
+    position: absolute;
+}
+#div4{
+    width:0;
+    height:0;
+    border-top: 100px solid transparent;
+    border-right:100px solid transparent;
+    border-bottom:100px solid green;
+    border-left:100px solid transparent;
+    position: absolute;
+    top:200px;
+}
+#div5{
+    width:0;
+    height:0;
+    border-top: 100px solid transparent;
+    border-right:100px solid transparent;
+    border-bottom:100px solid transparent;
+    border-left:100px solid pink;
+    position: absolute;
+    top:200px;
+    left:200px;
+}
+#div6{
+    width:0;
+    height:0;
+    border-top: 100px solid transparent;
+    border-right:100px solid pink;
+    border-bottom:100px solid transparent;
+    border-left:100px solid transparent;
+    position: absolute;
+    top:200px;
+}
+#div7{
+    width:0;
+    height:0;
+    border-top: 200px solid transparent;
+    border-right:200px solid blue;
+    border-bottom:0 solid transparent;
+    border-left:100px solid transparent;
+    position: absolute;
+    top:200px;
+    left:100px;
+}
+#dv2{
+    width:30px;
+    height:0;
+    border-top: 99.9px solid transparent;
+    border-right:100px solid black;
+    border-bottom:99.9px solid transparent;
+    border-left:100px solid transparent;
+    position: absolute;
+    left:170px;
+}
+#dv3{
+    width:0;
+    height:0;
+    border-top: 100.1px solid transparent;
+    border-right:99px solid transparent;
+    border-bottom:100.3px solid transparent;
+    border-left:100.2px solid black;
+    position: absolute;
+    top:99.6px;
+    left: 300.4px;
+}
+#dv4{
+    width:0;
+    height:0;
+    border-top: 100px solid transparent;
+    border-right:100px solid purple;
+    border-bottom:100px solid transparent;
+    border-left:100px solid transparent;
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+
